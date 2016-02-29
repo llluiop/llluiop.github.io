@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About"
-description: "学苟知本，六经皆我注脚 "
+description: " One's effort will pay off "
 header-img: "img/green.jpg"
 ---
 
@@ -14,7 +14,7 @@ header-img: "img/green.jpg"
 
 现在研习 **认知写作学** 。
 
-###坚信
+### 坚信
 
 - 一切技能皆可习得，包括写作
 - 「持续」并不是坚持，写就是最好的回报
