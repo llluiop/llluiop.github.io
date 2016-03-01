@@ -20,7 +20,7 @@ header-img: "img/green.jpg"
 - 「持续」并不是坚持，写就是最好的回报
 
 
-###关注：
+### 关注：
 
 - Python
 - [ZoomQuiet](http://blog.zoomquiet.io/)
@@ -28,7 +28,7 @@ header-img: "img/green.jpg"
 
 
 
-###代表作：
+### 代表作：
 
 - [《24款最值得推荐的中文字体》](http://cnfeat.com/blog/2015/05/22/a-24-chinese-fonts/)
 
@@ -37,7 +37,7 @@ header-img: "img/green.jpg"
 - [《如何正确地练习写作》](http://cnfeat.com/blog/2015/03/02/how-to-write/)
 
 
-###联系
+### 联系
 
 - [博客：http://llluiop.github.io](http://llluiop.github.io)
 
