@@ -26,17 +26,6 @@ header-img: "img/green.jpg"
 - [ZoomQuiet](http://blog.zoomquiet.io/)
 
 
-
-
-### 代表作：
-
-- [《24款最值得推荐的中文字体》](http://cnfeat.com/blog/2015/05/22/a-24-chinese-fonts/)
-
-- [《世界并非如你所见——用可供性来发现更大的世界》](http://cnfeat.com/blog/2015/05/01/affordance/)
-
-- [《如何正确地练习写作》](http://cnfeat.com/blog/2015/03/02/how-to-write/)
-
-
 ### 联系
 
 - [博客：http://llluiop.github.io](http://llluiop.github.io)
