@@ -1,63 +1,88 @@
 # Site settings
-title: 行以致远
-header-img: "img/green.jpg"
-tagline: "cn"  
-description: "刘宇|行·致远"  
-baseurl: ""
-url: ""  
+title: 何乐不为~ Blog
+SEOTitle: 何乐不为的博客 | Link Blog
+header-img: img/home-bg.jpg
+email: linshuhe1@gmail.com
+description: "关于客户端 | 林树河，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Link黄玄 的个人博客，与你一起发现更大的世界。"
+keyword: "林树河, Link树河, Link, 何乐不为~, linshuhe, @linshuhe, 何乐不为的博客, Link Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 丹漾, Dayoung, 丹漾的男朋友"
+url: "http://linshuhe.github.io"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
-# About/contact
-owner: 
-  name: " llluiop"
-  email: llluiop@hotmail.com
-  bio: "行以致远"
 
-# Data
-gavatar: http://dreamofbook.qiniudn.com/Az..png
-favicon: img/favicon.png
 
-douban_username:  
-twitter_username: 
-github_username: 
-facebook_username: 
-weibo_username: 
-zhihu_username: 
+# SNS settings
+RSS: false
+weibo_username:     2306456162
+#zhihu_username:     Linkpro
+github_username:    linshuhe
+#twitter_username:  Linkpro
+facebook_username:  shuhe.lin.7
 
-# Build settings  
-# use Github Flavored Markdown !important  
-# document: http://jekyllrb.com/docs/configuration/#kramdown  
-markdown: kramdown
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 8
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
 
-# Defaults for posts
-defaults:
-  -
-    scope: 
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "llluiop"
-      header-img: "img/green.jpg" # We don't want posts without a header image, that whould mean white on white
 
-# Comments 
-comments :
-  provider : duoshuo
-  duoshuo :
-    short_name : 
-  disqus :
-      short_name : 
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
 
-# Analytics and webmaster tools stuff goes here
-google_analytics: 
-google_verify:
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
 
-# Links to include in footer navigation
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: Linkblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: linshuhe.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "做一个有思想的文艺程序员，过惬意的平静日子。"
+sidebar-avatar: /img/avatar-Link.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "何乐不为的CSDN专栏",
+        href: "http://blog.csdn.net/linshuhe1"
+    },{}
+]
