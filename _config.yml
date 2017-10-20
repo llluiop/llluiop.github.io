@@ -1,22 +1,21 @@
 # Site settings
-title: 何乐不为~ Blog
+title: 行以致远 Blog
 SEOTitle: 何乐不为的博客 | Link Blog
 header-img: img/home-bg.jpg
-email: linshuhe1@gmail.com
-description: "关于客户端 | 林树河，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Link黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "林树河, Link树河, Link, 何乐不为~, linshuhe, @linshuhe, 何乐不为的博客, Link Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 丹漾, Dayoung, 丹漾的男朋友"
-url: "http://linshuhe.github.io"              # your host, for absolute URL
+email: 290522165@163.com
+description: " 刘宇 | 欲买桂花同载酒,终不似,少年游。"
+keyword: "刘宇, llluiop, 程序员, Blog, 博客, 个人网站"
+url: "http://llluiop.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     2306456162
 #zhihu_username:     Linkpro
-github_username:    linshuhe
+github_username:    llluiop
 #twitter_username:  Linkpro
-facebook_username:  shuhe.lin.7
+facebook_username:  llluiop
 
 
 
@@ -62,13 +61,13 @@ duoshuo_share: true                     # set to false if you want to use Commen
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: linshuhe.me
+ga_domain: liuyu.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "做一个有思想的文艺程序员，过惬意的平静日子。"
+sidebar-about-description: "所有命运赠送的礼物,都早已在暗中标好了价格。"
 sidebar-avatar: /img/avatar-Link.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -82,7 +81,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "何乐不为的CSDN专栏",
-        href: "http://blog.csdn.net/linshuhe1"
+        title: "github",
+        href: "github.com"
     },{}
 ]
